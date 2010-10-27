@@ -3,6 +3,8 @@
 
 This template set is a translation of the popular Wordpress Sandbox theme for TypePad Advanced Template users.  Sandbox, originally developed by Andy Skelton and Scott Wallick, is designed to be skinned with CSS.  As noted on the home page of Sandbox (http://www.plaintxt.org/themes/sandbox/), "the core feature of the Sandbox is its markup. The class-generating functions included with the Sandbox create an extensible and semantic XHTML structure."
 
+I made this a couple of years ago, and haven't updated it since.  Thought it would be worthwhile to make it available more broadly.
+
 # Using this template set with TypePad
 
 I recommend that you have some familiarity with TypePad Advanced Templates before installing the Sandbox template set for TypePad.
@@ -10,14 +12,6 @@ I recommend that you have some familiarity with TypePad Advanced Templates befor
 ## Create a new Advanced Template set
 
 First, of course, you'll need a Pro-level account or above at TypePad.  (Get one today at www.typepad.com.)  And you'll need to create a new Advanced Template set for your blog, and then apply it to your blog. 
-
-* Navigate to the design tab for your blog
-* Click on "saved designs"
-* Create a new Advanced Template set, and give it an appropriate name
-* Apply it to your blog
-* Click on "current design"
-
-Now you should have a new Advanced Template set for your blog.  From here, we're going to be replacing some of the templates in that set with templates included in this zip archive.
 
 ## Replace some of the index templates
 
