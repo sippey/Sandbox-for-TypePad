@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="http://www.typepad.com/" />
+
+<MTBlogIfPrivate>
+	<meta name="robots" content="noindex,nofollow" />
+</MTBlogIfPrivate>
+
+<$MTBlogMetaKeywords$>
+<$MTBlogMetaDescription$>
+
+<$MTInclude module="stylesheet-pointer"$>
+
+<MTBlogIfPostsFeed>
+<link rel="alternate" type="application/atom+xml" title="Posts on <$MTBlogName encode_html="1" $> (Atom)" href="<$MTBlogURL$>atom.xml" />
+</MTBlogIfPostsFeed>
+
+
+<title>Archives - <$MTBlogName$></title>
+<link rel="openid.server" href="http://www.typepad.com/services/openid/server" />
+<link rel="meta" type="application/rdf+xml" title="FOAF" href="<$MTUserSiteURL$>foaf.rdf" />
+
+</head>
+
+<body class="typepad wordpress page archives <$MTDate format="y%Y m%m d%d h%H">">
+
+<div id="wrapper" class="hfeed">
+
+<div id="header">
+	<h1 id="blog-title"><span><a href="<$MTBlogURL$>" title="<$MTBlogName encode_html="1"$>" rel="home"><$MTBlogName$></a></span></h1>
+	<div id="blog-description"><$MTBlogDescription$></div>
+</div><!-- #header -->
+
+<div id="access"> <!-- TODO: split this out into an include module called site-navigation -->
+	<$MTInclude module="site-navigation"$>
+</div><!-- #access -->
+
+
+<div id="container">
+	<div id="content">
+		
+<div id="post-about" class="hentry page publish">
+	
+	<h2 class="entry-title">Monthly Archives</h2>
+	
+	<div class="entry-content">
+		
+		<MTArchiveList archive_type="Monthly">
+			<a href="<$MTArchiveLink$>"><$MTArchiveTitle$></a><br />
+		</MTArchiveList>
+		
+	</div>
+
+</div>		
+
+<div id="post-about" class="hentry page publish">
+	
+	<h2 class="entry-title">Category Archives</h2>
+	
+	<div class="entry-content">
+		
+		<MTCategories>
+		<a href="<$MTCategoryArchiveLink$>"><$MTCategoryLabel$></a><br />
+		</MTCategories>
+				
+	</div>
+
+</div>		
+
+
+
+
+</div><!-- #content -->
+</div><!-- #container -->
+
+<div id="primary" class="sidebar">
+	<ul class="xoxo">
+		<li id="about">
+			<$MTInclude module="about"$>
+		</li>
+		
+		<li id="categories">
+			<$MTInclude module="categories"$>
+		</li>
+		
+		<li id="archives">
+			<$MTInclude module="archive-listing"$>
+		</li>
+	</ul>
+</div><!-- #primary -->
+
+
+<div id="secondary" class="sidebar">
+	<ul class="xoxo">
+		<li id="subscribe">
+			<$MTInclude module="subscribe"$>
+		</li>
+		
+	</ul>
+</div><!-- #secondary -->
+
+
+<div id="footer">
+
+	<$MTInclude module="footer"$>
+
+</div><!-- #footer -->
+
+
+
+
+
+</div> <!-- #wrapper -->
+
+
+
+
+</body>
+
+</html>

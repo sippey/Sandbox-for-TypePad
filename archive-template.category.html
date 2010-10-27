@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="http://www.typepad.com/" />
+
+<MTBlogIfPrivate>
+	<meta name="robots" content="noindex,nofollow" />
+</MTBlogIfPrivate>
+
+<$MTBlogMetaKeywords$>
+<$MTBlogMetaDescription$>
+
+<$MTInclude module="stylesheet-pointer"$>
+
+<MTBlogIfPostsFeed>
+<link rel="alternate" type="application/atom+xml" title="Posts on <$MTBlogName encode_html="1" $> (Atom)" href="<$MTBlogURL$>atom.xml" />
+</MTBlogIfPostsFeed>
+
+
+<title><$MTBlogName$> - Posts categorized <$MTArchiveTitle encode_html="1"$></title>
+<link rel="openid.server" href="http://www.typepad.com/services/openid/server" />
+<link rel="meta" type="application/rdf+xml" title="FOAF" href="<$MTUserSiteURL$>foaf.rdf" />
+
+</head>
+
+<body class="typepad wordpress archive category category-<$MTArchiveTitle$> <$MTDate format="y%Y m%m d%d h%H">">
+
+<div id="wrapper" class="hfeed">
+
+<div id="header">
+	<h1 id="blog-title"><span><a href="<$MTBlogURL$>" title="<$MTBlogName encode_html="1"$>" rel="home"><$MTBlogName$></a></span></h1>
+	<div id="blog-description"><$MTBlogDescription$></div>
+</div><!-- #header -->
+
+<div id="access"> <!-- TODO: split this out into an include module called site-navigation -->
+	<$MTInclude module="site-navigation"$>
+</div><!-- #access -->
+
+
+<div id="container">
+	<div id="content">
+		
+		<h2 class="page-title">Category archives: <span><$MTArchiveTitle$></span></h2>
+
+
+	<MTEntries>
+		
+<div id="post-<$MTEntryID$>" class="hentry post publish author-<$MTEntryAuthor encode_html="1" dirify="1"$> <MTEntryIfCategories><MTEntryCategories glue=" ">category-<$MTCategoryLabel encode_html="1" dirify="1"$></MTEntryCategories></MTEntryIfCategories> <$MTEntryDate format="y%Y m%m d%d h%H">">
+
+	<h2 class="entry-title"><a href="<$MTEntryPermalink$>" title="Permalink to <$MTEntryTitle encode_html="1"$>" rel="bookmark"><$MTEntryTitle$></a></h2>
+	<div class="entry-date"><abbr class="published" title="<$MTEntryDate format="%Y-%m-%dT%H:%M:%S">"><$MTEntryDate format="%x - %X"></abbr></div>
+	
+	<div class="entry-content">
+		<$MTEntryExcerpt$>
+			<p class="entry-more-link"><a href="<$MTEntryPermalink$>">Read more...</a></p>
+	</div>
+	
+	<div class="entry-meta">
+		<span class="author vcard">By <$MTEntryAuthor$></span>
+		<MTEntryIfCategories>
+			<span class="meta-sep"> | </span>
+			<span class="cat-links">Posted in <MTEntryCategories glue=", "><a href="<$MTCategoryArchiveLink$>"><$MTCategoryLabel$></a></MTEntryCategories></span>
+		</MTEntryIfCategories>
+		
+		<MTEntryIfAllowComments>
+			<span class="meta-sep"> | </span>
+			<span class="comments-link"><a title="Comment on <$MTEntryTitle encode_html="1" $>" href="<$MTEntryPermalink$>#comments">Comments (<$MTEntryCommentCount$>)</a></span>
+		</MTEntryIfAllowComments>
+		
+	</div><!-- .entry-meta -->
+</div><!-- #post-<$MTEntryID$> -->
+
+<MTEntriesFooter>
+<MTIfPages>
+<div id="nav-below" class="navigation">
+	<div class="nav-previous">
+		<MTIfPreviousPage>
+			<a href="<$MTPreviousPageURL$>"><$MTEntryPreviousPageLabel encode_html="1"$></a>
+		</MTIfPreviousPage>
+	</div>
+	<div class="nav-next">
+		<MTIfNextPage>
+			<a href="<$MTNextPageURL$>"><$MTEntryNextPageLabel encode_html="1"$></a>
+		</MTIfNextPage>
+	</div>
+</div>
+</MTIfPages>
+</MTEntriesFooter>
+
+</MTEntries>
+	
+</div><!-- #content -->
+
+</div><!-- #container -->
+
+<div id="primary" class="sidebar">
+	<ul class="xoxo">
+		<li id="about">
+			<$MTInclude module="about"$>
+		</li>
+		
+		<li id="categories">
+			<$MTInclude module="categories"$>
+		</li>
+		
+		<li id="archives">
+			<$MTInclude module="archive-listing"$>
+		</li>
+	</ul>
+</div><!-- #primary -->
+
+
+<div id="secondary" class="sidebar">
+	<ul class="xoxo">
+		<li id="subscribe">
+			<$MTInclude module="subscribe"$>
+		</li>
+		
+	</ul>
+</div><!-- #secondary -->
+
+
+<div id="footer">
+
+	<$MTInclude module="footer">
+
+</div><!-- #footer -->
+
+
+
+
+
+</div> <!-- #wrapper -->
+
+
+
+
+</body>
+
+</html>
